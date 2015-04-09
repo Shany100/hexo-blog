@@ -4,7 +4,7 @@ tags:
 ---
 
 ## 遇到的问题
-利用 'hexo deploy' 到 github 项目 'https://github.com/Shany100/hexo-blog.git' 中会出现 'result=56'的问题。然后根据网上提供的方案，在 /.git/config 文件中添加了以下字符段：
+利用 'hexo deploy' 到 github 项目 'https://github.com/Shany100/hexo-blog.git' 中会出现 'error: RPC failed; result=56, HTTP code = 200'的问题。然后根据网上提供的方案，在 /.git/config 文件中添加了以下字符段：
 ``` bash
 [http]
 	postBuffer = 524288000
