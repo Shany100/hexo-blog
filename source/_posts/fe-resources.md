@@ -18,4 +18,4 @@ tags:
 - [动物图形变换](http://www.species-in-pieces.com/)
 - [腾讯互动娱乐宣传页](http://up.qq.com/2015/imagination/?from=singlemessage&isappinstalled=0 )
 基于createjs开发的。CreateJS 是一套可以构建丰富交互体验的 HTML5 游戏的开源工具包。
-![腾讯互动娱乐发布会宣传图](/images/qq-2015-live.jpg '腾讯互动娱乐发布会宣传图')
+![腾讯互动娱乐发布会宣传图](/images/qq-2015-live.jpg  '腾讯互动娱乐发布会宣传图')

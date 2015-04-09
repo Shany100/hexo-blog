@@ -3,6 +3,10 @@ date: 2015-04-08 17:01:35
 tags:
 ---
 
+## 搭建教程
+参考了[Hexo Document](http://hexo.io/docs/) 和 [Hexo在github上构建免费的Web应用](http://blog.fens.me/hexo-blog-github/)
+
+
 ## 遇到的问题
 利用 'hexo deploy' 到 github 项目 'https://github.com/Shany100/hexo-blog.git' 中会出现 'error: RPC failed; result=56, HTTP code = 200'的问题。然后根据网上提供的方案，在 /.git/config 文件中添加了以下字符段：
 ``` bash
@@ -11,7 +15,7 @@ tags:
 ```
 也没用达到预期的效果。还是报了问题。
 
-##### 解决
+## 解决了
 把 github 项目由 https 改成了 'git@github.com:Shany100/hexo-blog.git'，提交后是成功的。
 - hexo 的版本是
 <pre>
@@ -27,3 +31,6 @@ zlib: 1.2.3
 modules: 11
 openssl: 1.0.1i
 </pre>
+
+## 注意
+添加多说评论时，在本地环境如果是localhost的 需要注意发布到线上时分享出去的路径。"Thread Key" 唯一性。
